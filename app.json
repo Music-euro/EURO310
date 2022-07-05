@@ -1,8 +1,8 @@
 {
-    "name": "سورس جيبثون ميوزك",
+    "name": "سورس يورو ميوزك",
     "description": "سورس ميوزك لتشغيل الاغاني في المحادثات الصوتية .",
-    "keywords": ["JEPTHON", "JEPTHON-MUSIC", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "telethon"],
-    "repository": "https://github.com/lMl10l/Jepthon-313",
+    "keywords": ["EURO", "EURO-MUSIC", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "telethon"],
+    "repository": "https://github.com/Music-euro/EURO310.git",
   "stack": "container",
     "env": {
         "APP_ID": {
@@ -23,12 +23,12 @@
         "SUPPORT": {
             "description": "ضع هنا معرف مجموعتك او قناتك بدون @",
             "required": false,
-            "value": "JEPTHONSUPPORT"
+            "value": "TheeSupportChat"
         },
         "CHANNEL": {
             "description": "ضع معرف قناتك اذا اردت غير ذلك اتركها ",
             "required": false,
-            "value": "JEPTHON"
+            "value": "E_U_R_O_1"
         },
         "BOT_USERNAME": {
             "description": "هنا ضع معرف البوت بدون @",
