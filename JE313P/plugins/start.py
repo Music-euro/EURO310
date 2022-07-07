@@ -3,12 +3,16 @@ from Config import Config
 from telethon import events, Button
 
 PM_START_TEXT = """
-Hello, My Pro ! {}
-**Ana bot basit majmueatik min majmueatik alkhasa**
-**useful features. Supporting platforms like**
-**Youtube, Spotify, Resso, AppleMusic ,**
-**Soundcloud etc.**
-**Feel free to add me to your groups.**
+اهلا بك ! {}
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+✘انا بوت بسيط لحماية مجموعتك وتشغيل المقاطع الصوتية في المكالمه**.
+‣ **استطيع تشغيل المقاطع الصوتية في المكالمة**.
+‣ **استطيع حظر و كتم اي مستخدم**.
+‣ **افضل بوت من ناحية المميزات**
+‣ **يعتمد على مكتبة التيليثون لذلك يكون البوت سريع**!
+‣ **اكتشف الباقي بنفسك**.
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+✘ اضغط على الاسفل لعرض الاوامر الخاصه بي.
 """
 
 @JE313P.on(events.NewMessage(pattern="^[?!/]start$"))
