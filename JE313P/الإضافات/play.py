@@ -438,7 +438,7 @@ async def vc_playlist(event, perm):
 
 
 #كود المغادرة
-@JE313P.on(events.NewMessage(pattern="^[?!/]leave))
+@ JE313P . في ( أحداث . NewMessage ( pattern = "^ [؟! /] مغادرة"))
 @is_admin
 async def leavevc(event, perm):
     razan = await event.reply("- يرجى الانتظار قليلا")
