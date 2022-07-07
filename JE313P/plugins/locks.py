@@ -13,7 +13,7 @@ LOCKS_HELP = """
 
 /الصلاحيات
 لعرض الصلاحيات التي يمكنك قفلها
-『𝚂𝙾𝚄𝚁𝙲𝙴 𝙹𝙾𝙾』(https://t.me/Source_Joo)
+『𝚂𝙾𝚄𝚁𝙲𝙴 𝙹𝙾𝙾』(@Source_Joo)
 """
 
 @JE313P.on(events.NewMessage(pattern="^[!?/]قفل ?(.*)"))

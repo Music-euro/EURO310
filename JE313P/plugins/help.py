@@ -8,7 +8,7 @@ btn =[
     [Button.inline("القفل", data="locks"), Button.inline("اخرى", data="misc")],
     [Button.inline("الرئيسية", data="start")]]
 
-HELP_TEXT = "اهلا بك في قائمة اوامر سورس يورو\n\nاضغط على الازرار من الاسفل:"
+HELP_TEXT = "اهلا بك في قائمة اوامر سورس جوو\n\nاضغط على الازرار من الاسفل:"
 
 
 @JE313P.on(events.NewMessage(pattern="[!?/]الاوامر"))
