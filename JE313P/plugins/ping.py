@@ -10,10 +10,10 @@ IMG = os.environ.get(
 ms = 4
 
 ALIVE = os.environ.get(
-    "ALIVE", "@JE313P"
+    "ALIVE", "@DAD_A_S_K_A_N_D_E_R"
 )
 
-CAPTION = f"**سرعة البنك:** {ms}\n المالك:『{ALIVE}』"
+CAPTION = f"**سرعة البنج:** {ms}\n المالك:『{ALIVE}』"
 
 
 @JE313P.on(events.NewMessage(pattern="^/ping"))

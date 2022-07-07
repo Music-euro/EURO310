@@ -438,7 +438,7 @@ async def vc_playlist(event, perm):
 
 
 #كود المغادرة
-@JE313P.on(events.NewMessage(pattern="^[?!/]مغادرة"))
+@JE313P.on(events.NewMessage(pattern="^[?!/]leave))
 @is_admin
 async def leavevc(event, perm):
     razan = await event.reply("- يرجى الانتظار قليلا")
@@ -499,7 +499,7 @@ async def vc_pause(event, perm):
 
 
 
-@JE313P.on(events.NewMessage(pattern="^[?!/]استئناف"))
+@JE313P.on(events.NewMessage(pattern="^[?!/]Playlist"))
 @is_admin
 async def vc_resume(event, perm):
     chat_id = event.chat_id
