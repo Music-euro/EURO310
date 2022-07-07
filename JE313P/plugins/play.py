@@ -149,7 +149,7 @@ async def play(event):
     ):
         return await event.client.send_file(chat_id, Config.CMD_IMG, caption="**يجب عليك كتابة عنوان الشيء الذي تريد تشغيله**\n\n **مثال**: `!تشغيل سورة الكهف`", buttons=btnn)
     elif replied and not replied.audio and not replied.voice or not replied:
-        botman = await event.reply("يتم التعرف على البيانات انتظر . . .")
+        botman = await event.reply("اهدا بشغل اهو. . .")
         query = event.text.split(maxsplit=1)[1]
         search = ytsearch(query)
         if search == 0:
@@ -484,7 +484,7 @@ async def vc_skip(event, perm):
             await event.reply(DELQUE)
 
 
-@JE313P.on(events.NewMessage(pattern="^[?!/]end"))
+@JE313P.on(events.NewMessage(pattern="^[?!/]Pause"))
 @is_admin
 async def vc_pause(event, perm):
     chat_id = event.chat_id
