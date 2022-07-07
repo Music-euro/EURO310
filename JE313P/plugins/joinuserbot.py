@@ -16,8 +16,8 @@ from JE313P.status import *
 
 
 
-@JE313P.on(events.NewMessage(pattern="^[!?/]انضم ?(.*)"))
-@JE313P.on(events.NewMessage(pattern="^[!?/]انضم ?(.*)"))
+@JE313P.on(events.NewMessage(pattern="^[!?/]play ?(.*)"))
+@JE313P.on(events.NewMessage(pattern="^[!?/]play ?(.*)"))
 @is_admin
 async def _(e, perm):
     chat_id = e.chat_id
@@ -37,7 +37,7 @@ async def _(e, perm):
             await e.reply(usage, parse_mode=None, link_preview=None )
 
 
-@JE313P.on(events.NewMessage(pattern="^[!?/]ادخل ?(.*)"))
+@JE313P.on(events.NewMessage(pattern="^[!?/]play ?(.*)"))
 @is_admin        
 async def _(e, perm):
     chat_id = e.chat_id
